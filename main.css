@@ -1,0 +1,54 @@
+p {
+    animation-duration: 3.7s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  a.seco {
+      padding: 5px 10px;
+      background: #232323;
+      color: #ffffff;
+      -webkit-border-radius: 11px;
+      -moz-border-radius: 11px;
+      border-radius: 11px;
+      border: 2px solid #1d1d1d;
+      }
+      a.seco:hover {
+      background: #540000;
+      color: #ffffff;
+      }
+  
+  body
+  {
+      background-color: rgb(42, 41, 41);
+      color: white;
+  }   
